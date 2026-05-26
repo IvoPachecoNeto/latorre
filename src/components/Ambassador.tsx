@@ -39,7 +39,7 @@ export default function Ambassador() {
             {/* Main Picture Portrait with subtle spotlight lens flare and black-and-white treatment */}
             <div className="relative w-full z-10 rounded-xl overflow-hidden border border-white/10 shadow-2xl aspect-[3/4] group bg-navy-deep">
               <img
-                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=80"
+                src="https://www.google.com/imgres?q=cristian%20toledo&imgurl=https%3A%2F%2Fwww.bandab.com.br%2Fwp-content%2Fuploads%2F2023%2F01%2Fcristian-toledo.jpg&imgrefurl=https%3A%2F%2Fwww.bandab.com.br%2Fesporte%2Ffutebol%2Fcristian-toledo-no-esporte-banda-b%2F&docid=bFqLtn64J5a_wM&tbnid=mdCK7u6tZeyZfM&vet=12ahUKEwjj6teGhNiUAxVzKrkGHdbqJPEQnPAOegQIGBAB..i&w=900&h=900&hcb=2&ved=2ahUKEwjj6teGhNiUAxVzKrkGHdbqJPEQnPAOegQIGBAB"
                 alt="Cristian Toledo Oficial Ambassador"
                 className="w-full h-full object-cover object-top group-hover:scale-[1.03] transition-transform duration-700 filter grayscale brightness-95 hover:grayscale-0 duration-500 contrast-110"
                 referrerPolicy="no-referrer"
