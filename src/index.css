@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-display: "Playfair Display", serif;
+  --font-stadium: "Outfit", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-gold-light: #fdf5e6;
+  --color-gold-accent: #D4AF37;
+  --color-gold-hover: #AA7C11;
+  
+  --color-navy-deep: #020617;
+  --color-navy-card: rgba(255, 255, 255, 0.03);
+  --color-navy-solid-card: #0b0f19;
+  --color-french-red: #941B1B;
+  --color-french-red-hover: #731313;
+  --color-ice-white: #F4F6F9;
+  
+  --animate-pulse-slow: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Custom background ambient glows and glass effects matching Editorial Aesthetic */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-panel-light {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.gold-glow {
+  box-shadow: 0 0 40px rgba(212, 175, 55, 0.08);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #fdf2d0 0%, #D4AF37 50%, #AA7C11 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.red-glow {
+  box-shadow: 0 0 30px rgba(148, 27, 27, 0.15);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Scrollbar premium styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #030a1c;
+}
+::-webkit-scrollbar-thumb {
+  background: #C1121F;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D4AF37;
+}
+
