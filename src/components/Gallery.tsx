@@ -7,6 +7,8 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Maximize2, X, ChevronLeft, ChevronRight, Eye, Sparkles } from 'lucide-react';
 import { GalleryItem, GalleryTag } from '../types';
+import estadioImg from '../../assets/estadio.jpg';
+import corporativosImg from '../../assets/corporativos.jpg';
 
 export default function Gallery() {
   const [activeFilter, setActiveFilter] = useState<GalleryTag>('all');
@@ -33,7 +35,7 @@ export default function Gallery() {
       category: 'experiencia',
       title: 'Vibração de Estádio',
       description: 'Torcedores vibrando a cada lance decisivo como se estivessem na arquibancada real.',
-      image: 'https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=800&q=80',
+      image: estadioImg,
     },
     {
       id: 'g3',
@@ -75,7 +77,7 @@ export default function Gallery() {
       category: 'eventos',
       title: 'Eventos Corporativos VIP',
       description: 'Confraternizações planejadas com telão privativo e cardápio montável sob medida.',
-      image: 'https://images.unsplash.com/photo-1530101121243-cfa57d1df11b?auto=format&fit=crop&w=800&q=80',
+      image: corporativosImg,
     },
   ];
 
