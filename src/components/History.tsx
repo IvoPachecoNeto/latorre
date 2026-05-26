@@ -5,6 +5,7 @@
 
 import { motion } from 'motion/react';
 import { Landmark, Flame, Compass, Heart, MapPin } from 'lucide-react';
+import torreImg from '../../assets/torre.jpg';
 
 export default function History() {
   return (
@@ -82,7 +83,7 @@ export default function History() {
             <div className="relative z-10 w-[70%] aspect-[1:1.1] rounded-2xl overflow-hidden glass-panel shadow-2xl group transition-all duration-500 hover:scale-[1.01]">
               <div className="absolute inset-0 bg-navy-deep/20 group-hover:bg-transparent transition-colors z-10" />
               <img
-                src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=800&q=80"
+               src={torreImg}
                 alt="Eiffel Tower Paris Night"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 referrerPolicy="no-referrer"
