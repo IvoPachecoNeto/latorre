@@ -14,9 +14,9 @@ export default function Menu({ onOpenBooking }: MenuProps) {
   // Cinematic photos representing the high-end gastronomy aspects the user requested
   const images = {
     cocktail: 'https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&q=80', // Close up cocktail
-    whisky: 'https://images.unsplash.com/photo-1527061011665-3652c757a4d4?auto=format&fit=crop&w=800&q=80', // Premium pour
+    whisky: 'https://www.google.com/imgres?q=WHISKYS%20PREMIUM&imgurl=https%3A%2F%2Fwww.casadabebida.com.br%2Fimg%2Fnews%2Fwhisky-bom-ate-r300-aqui-so-entra-custo-beneficio-com-estilo_1_600.png&imgrefurl=https%3A%2F%2Fwww.casadabebida.com.br%2Fblog%2F15%2F07%2F2025%2Fwhisky-bom-ate-r300-aqui-so-entra-custo-beneficio-com-estilo%2F&docid=JsHPYiTox7QL_M&tbnid=CjomlZ4tqakaKM&vet=12ahUKEwi70rLvhNiUAxVFrpUCHWvYFaEQnPAOegQIORAB..i&w=600&h=456&hcb=2&ved=2ahUKEwi70rLvhNiUAxVFrpUCHWvYFaEQnPAOegQIORAB', // Premium pour
     pizza: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80', // Wood fired blurred background
-    chopp: 'https://images.unsplash.com/photo-1568271675068-f76a588bb216?auto=format&fit=crop&w=800&q=80', // Frosty cold draft beer
+    chopp: 'https://www.google.com/imgres?q=CHOPP&imgurl=https%3A%2F%2Fcdn.awsli.com.br%2F600x450%2F2613%2F2613735%2Fproduto%2F220435192%2Fchopp-m07cjb58az.JPG&imgrefurl=https%3A%2F%2Fwww.cerradeira.com.br%2Fchopp&docid=pZiAWoMeLkqJlM&tbnid=aOrf-mYAhFZURM&vet=12ahUKEwjqnOPShdiUAxVZr5UCHYKEOJwQnPAOegQIGBAB..i&w=423&h=450&hcb=2&ved=2ahUKEwjqnOPShdiUAxVZr5UCHYKEOJwQnPAOegQIGBAB', // Frosty cold draft beer
   };
 
   return (
