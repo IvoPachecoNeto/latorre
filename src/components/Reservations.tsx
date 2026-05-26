@@ -6,6 +6,7 @@
 import { motion } from 'motion/react';
 import { Sparkles, Tv, Gamepad2, Users, Music4, GlassWater, ArrowUpRight } from 'lucide-react';
 import { EventRoom } from '../types';
+import salaParisImg from '../../assets/sala-paris.jpg';
 
 interface ReservationsProps {
   onOpenBooking: (area?: string) => void;
@@ -33,7 +34,7 @@ export default function Reservations({ onOpenBooking }: ReservationsProps) {
       features: ['PlayStation 5 com Copa/FIFA', 'Atendimento Garçom Exclusivo', 'Sofás premium de Couro Nobre'],
       description: 'Nosso espaço VIP ultraconservado e privativo. Perfeito para grupos que desejam focar na sua própria zoeira, jogar PS5 ou assistir à partida com total privacidade.',
       tag: 'L’ESPACE PRIVÉ',
-      bgImage: 'https://images.unsplash.com/photo-1599447421416-3414500d18a5?auto=format&fit=crop&w=800&q=80',
+      bgImage: salaParisImg,
     },
     {
       id: 'externa',
