@@ -5,6 +5,7 @@
 
 import { motion } from 'motion/react';
 import { Newspaper, Quote } from 'lucide-react';
+import cristianImg from '../../assets/cristian.jpg';
 
 export default function Ambassador() {
   const mediaPasses = [
@@ -39,7 +40,7 @@ export default function Ambassador() {
             {/* Main Picture Portrait with subtle spotlight lens flare and black-and-white treatment */}
             <div className="relative w-full z-10 rounded-xl overflow-hidden border border-white/10 shadow-2xl aspect-[3/4] group bg-navy-deep">
               <img
-                src="https://www.google.com/imgres?q=cristian%20toledo&imgurl=https%3A%2F%2Fwww.basicacomunicacoes.com.br%2Fnovo%2Fwp-content%2Fuploads%2F2024%2F05%2FWhatsApp-Image-2024-05-23-at-15.13.28.jpeg&imgrefurl=https%3A%2F%2Fwww.basicacomunicacoes.com.br%2Fpalestrantes%2Fcristian-toledo%2F&docid=GVbQE9DPS91TVM&tbnid=wMk3TGEa805k0M&vet=12ahUKEwjj6teGhNiUAxVzKrkGHdbqJPEQnPAOegQIHhAB..i&w=959&h=1280&hcb=2&ved=2ahUKEwjj6teGhNiUAxVzKrkGHdbqJPEQnPAOegQIHhAB"
+                src={cristianImg}
                 alt="Cristian Toledo Oficial Ambassador"
                 className="w-full h-full object-cover object-top group-hover:scale-[1.03] transition-transform duration-700 filter grayscale brightness-95 hover:grayscale-0 duration-500 contrast-110"
                 referrerPolicy="no-referrer"
