@@ -64,6 +64,7 @@ export default function Gallery() {
       title: 'Privacidade na Sala Paris',
       description: 'O clima premium e as poltronas de couro em nosso espaço vip exclusivo.',
       image: '/assets/sala-paris.jpg',
+    },      
     {
       id: 'g7',
       category: 'eventos',
