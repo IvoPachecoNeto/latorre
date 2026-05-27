@@ -83,7 +83,7 @@ export default function History() {
             <div className="relative z-10 w-[70%] aspect-[1:1.1] rounded-2xl overflow-hidden glass-panel shadow-2xl group transition-all duration-500 hover:scale-[1.01]">
               <div className="absolute inset-0 bg-navy-deep/20 group-hover:bg-transparent transition-colors z-10" />
               <img
-               src={torreImg}
+               src="/assets/torre.jpg"
                 alt="Eiffel Tower Paris Night"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 referrerPolicy="no-referrer"
