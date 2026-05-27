@@ -5,8 +5,8 @@
 
 import { motion } from 'motion/react';
 import { Landmark, Flame, Compass, Heart, MapPin } from 'lucide-react';
-import torreImg from '../../assets/torre.jpg';
 
+const torreImg = '/assets/torre.jpg';
 export default function History() {
   return (
     <section id="historia" className="relative py-32 bg-navy-deep overflow-hidden">
