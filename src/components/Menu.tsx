@@ -6,8 +6,8 @@
 import { motion } from 'motion/react';
 import { GlassWater, Flame, Sparkles, Utensils, Play } from 'lucide-react';
 
-import whiskyImg from '../../assets/whiskys.jpg';
-import choppImg from '../../assets/chopp.jpg';
+const whiskyImg = '/assets/whiskys.jpg';
+const choppImg = '/assets/chopp.jpg';
 
 interface MenuProps {
   onOpenBooking: () => void;
