@@ -13,11 +13,11 @@ interface MenuProps {
 export default function Menu({ onOpenBooking }: MenuProps) {
   // Cinematic photos representing the high-end gastronomy aspects the user requested
   const images = {
-    cocktail: 'https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&q=80', // Close up cocktail
-    whisky: 'https://images.unsplash.com/photo-1527061011665-3652c757a4d4?auto=format&fit=crop&w=800&q=80', // Premium pour
-    pizza: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80', // Wood fired blurred background
-    chopp: 'https://images.unsplash.com/photo-1568271675068-f76a588bb216?auto=format&fit=crop&w=800&q=80', // Frosty cold draft beer
-  };
+  cocktail: 'https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&q=80',
+  whisky: '/assets/whiskys.jpg',
+  pizza: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80',
+  chopp: '/assets/chopp.jpg',
+};
 
   return (
     <section id="cardapio" className="relative py-36 bg-[#020617] overflow-hidden">
