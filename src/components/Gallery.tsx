@@ -199,7 +199,7 @@ export default function Gallery() {
         {/* Note block */}
         <div className="text-center mt-12">
           <p className="font-sans text-xs text-gray-500">
-            Siga nosso instagram <a href="https://instagram.com" target="_blank" rel="noreferrer" className="text-gold-accent hover:underline">@LaTorreSportBar</a> e marque-nos nos seus lances históricos! 📸
+            Siga nosso instagram <a href="https://www.instagram.com/latorresportbar/" target="_blank" rel="noreferrer" className="text-gold-accent hover:underline">@LaTorreSportBar</a> e marque-nos nos seus lances históricos! 📸
           </p>
         </div>
 
